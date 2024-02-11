@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Pretendard Bold';
+  src: url('./public/Pretendard.woff') format('truetype');
+  font-display: swap;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('/public/Pretendard-Medium.woff') format('truetype');
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Pretendard', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Pretendard Bold', sans-serif;
+}
