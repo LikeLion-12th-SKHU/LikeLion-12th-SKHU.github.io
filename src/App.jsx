@@ -1,10 +1,10 @@
 import './App.css';
+import SloganArea from './component/ui/Slogan';
 
 function App() {
   return (
     <>
-      <div>헤</div>
-      <h1>아</h1>
+      <SloganArea />
     </>
   );
 }
