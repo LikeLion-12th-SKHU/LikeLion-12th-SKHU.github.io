@@ -20,7 +20,7 @@ const SloganArea = () => {
       <motion.img
         width={350}
         height={350}
-        src="/src/assets/sloganBackground.png"
+        src='../../../'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{
