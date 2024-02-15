@@ -1,9 +1,16 @@
 import { motion } from 'framer-motion';
 import { useMemo } from 'react';
 
-const TransitionHeading = ({ text, from, to, textStyle, ...rest }) => {
+const TransitionHeading = ({
+  text,
+  splitString,
+  from,
+  to,
+  textStyle,
+  ...rest
+}) => {
   const transitionText = useMemo(() => {
-    return text.split(' ').map((el, i) => {
+    return text.split(splitString ?? ' ').map((el, i) => {
       return (
         <motion.h1
           key={i}
