@@ -1,12 +1,14 @@
 import TransitionHeading from '../TransitionHeading';
+import Button from '../Button';
 import { TEXT } from '../../../constants/text';
+import { ApplyIcon } from '../IconUI/ApplyIcon';
 import { motion } from 'framer-motion';
 import './index.css';
 
 const SloganArea = () => {
   return (
-    <main className="slogan-container">
-      <section className="text-container">
+    <article className="slogan-container">
+      <section>
         <TransitionHeading
           text={TEXT.slogan}
           from={0}
@@ -16,19 +18,27 @@ const SloganArea = () => {
           }}
           className="transition-text"
         />
+        <Button type="recruit" content="12기 지원하기" icon={<ApplyIcon />} />
       </section>
-      <motion.img
-        width={350}
-        height={350}
-        src="../../../assets/sloganBackground.png"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{
-          duration: 0.5,
-          delay: 1.2,
+
+      <div
+        style={{
+          display: 'flex',
         }}
-      />
-    </main>
+      >
+        <motion.img
+          width={350}
+          height={350}
+          src="/public/sloganBackground.png"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            delay: 1.2,
+          }}
+        />
+      </div>
+    </article>
   );
 };
 

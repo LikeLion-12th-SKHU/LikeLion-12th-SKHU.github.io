@@ -10,7 +10,7 @@ const TransitionHeading = ({ text, from, to, textStyle, ...rest }) => {
           initial={{ opacity: from ?? 0 }}
           animate={{ opacity: to ?? 1 }}
           transition={{
-            duration: 0.25,
+            duration: i * 0.2,
             delay: i * 0.48,
           }}
           style={{
