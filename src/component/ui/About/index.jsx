@@ -8,6 +8,8 @@ const About = () => {
         style={{
           width: '250px',
           gap: '5px',
+          display: 'flex',
+          margin: '15px auto',
         }}
         key={title}
       >
@@ -20,7 +22,7 @@ const About = () => {
   return (
     <section
       style={{
-        height: '100vh',
+        minHeight: '100vh',
       }}
     >
       <BannerTextArea
@@ -30,7 +32,7 @@ const About = () => {
       />
       <div
         style={{
-          width: '60%',
+          width: '80%',
           display: 'flex',
           justifyContent: 'space-between',
           margin: '25px auto',
