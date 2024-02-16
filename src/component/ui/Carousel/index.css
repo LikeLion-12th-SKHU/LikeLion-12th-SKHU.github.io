@@ -1,9 +1,11 @@
 .carousel {
   display: flex;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   height: 200px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .carousel-images {
