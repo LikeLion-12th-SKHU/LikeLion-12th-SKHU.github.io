@@ -32,12 +32,21 @@ const Carousel = ({ content }) => {
       return 0;
     }
     if (index > currentIndex) {
-      return 50;
+      return 20;
     }
-    return -50;
+    return -20;
   };
   return (
     <div className="carousel">
+      <div
+        style={{
+          width: '450px',
+          display: 'flex',
+          flexWrap: 'wrap',
+        }}
+      >
+        {content[currentIndex].content}
+      </div>
       <div
         style={{
           display: 'flex',
