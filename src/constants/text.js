@@ -7,24 +7,24 @@ export const TEXT = {
       title: '해커톤',
       content:
         '실제 아이디어가 구현되는 축제의 장입니다. 수 주간의 아이디어 빌드업과 프로그래밍에 이어 해커톤 당일의 밤샘 코딩 및 최종 발표를 통해 아이디어를 구현하고 소개합니다.',
-      img: '/해커톤.png',
+      img: '/recruit_page_fe/해커톤.png',
     },
     {
       title: '스터디',
       content: '각 파트별 스터디를 통해 프론트엔드/백엔드 지식을 학습합니다.',
-      img: '/스터디.png',
+      img: '/recruit_page_fe/스터디.png',
     },
     {
       title: '아이디어톤',
       content:
         '팀프로젝트를 통해 실현하고 싶은 아이디어(웹서비스)를 발표하는 자리이며 전국의 멋대 학생들이 모여 아이디어를 공유하는 네트워킹의 장입니다.',
-      img: '/아이디어톤.png',
+      img: '/recruit_page_fe/아이디어톤.png',
     },
     {
       title: '친목활동',
       content:
         '성공회대 멋사만의 MT, OT, 조지미 제도, 세미나 등 학교 선배, 후배, 동기와 친해지고 더불어 함께 스터디 할 수 있는 기회를 얻을 수 있습니다',
-      img: '/친목.png',
+      img: '/recruit_page_fe/친목.png',
     },
   ],
   recruit: [

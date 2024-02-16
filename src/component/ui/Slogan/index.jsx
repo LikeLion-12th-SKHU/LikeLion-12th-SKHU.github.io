@@ -29,7 +29,7 @@ const SloganArea = () => {
         <motion.img
           width={300}
           height={300}
-          src="/sloganBackground.png"
+          src="/recruit_page_fe/sloganBackground.png"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
