@@ -62,6 +62,18 @@ export const TEXT = {
         '같은 음식점에서 음식을 함께 주문할 이웃들을 모은 뒤 대표 주문자가 주문하고 만나 배달비를 내눠 낸 다음 음식을 나눠 가질 수 있도록 돕는 서비스',
       img: 'https://likelion-11th-skhu.github.io/static/img/project/10.png',
     },
+    {
+      title: '쓱터디',
+      content:
+        '스터디 모임 매칭 서비스로, 동아리나 그룹 스터디와 같은 정보는 에브리타임과 같은 특정 커뮤니티 없이는 정보를 찾기 어렵다는 문제점에서 비롯해, 스터디 그룹을 쉽게 구성하고 찾아볼 수 있게 돕습니다',
+      img: 'https://likelion-11th-skhu.github.io/static/img/project/6.png',
+    },
+    {
+      title: '젊어서노세',
+      content:
+        '중장년층을 대상으로 한 소모임 커뮤니티로,노약자를 위한 서비스가 많이 부족하고 세대 간의 소통이 단절되어 있는 현 사회상에 문제점을 느껴 기획하게 되었습니다. 취미나 관심사를 기록하고 자신과 같은 취미나 관심사를 가진 사람이 주변에 없어 외로운 분들이 이용할 수 있습니다.',
+      img: 'https://likelion-11th-skhu.github.io/static/img/project/7.png',
+    },
   ],
 };
 
