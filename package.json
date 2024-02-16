@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://LikeLion-12th-SKHU.github.io/recruit_page_fe",
+  "homepage": "https://likelion-12th-skhu.github.io/recruit_page_fe/",
   "dependencies": {
     "framer-motion": "^11.0.3",
     "react": "^18.2.0",
