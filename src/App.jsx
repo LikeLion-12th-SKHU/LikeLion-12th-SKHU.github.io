@@ -1,10 +1,18 @@
 import './App.css';
+import About from './component/ui/About';
+import Recruit from './component/ui/Recruit';
+import SloganArea from './component/ui/Slogan';
+import Curriculum from './component/ui/Curriculum';
+import Project from './component/ui/Project';
 
 function App() {
   return (
     <>
-      <div>헤</div>
-      <h1>아</h1>
+      <SloganArea />
+      <About />
+      <Recruit />
+      <Curriculum />
+      <Project />
     </>
   );
 }
