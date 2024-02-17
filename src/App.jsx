@@ -1,7 +1,6 @@
 import './App.css';
 
 import React from 'react';
-// import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
 
@@ -19,11 +18,13 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={    
-          <SloganArea />
-          <About />
-        <Recruit />
-        <Curriculum />
-        <Project />
+          <>  
+            <SloganArea />
+            <About />
+            <Recruit />
+            <Curriculum />
+            <Project />
+          </>
         } />
         <Route path="/qna" element={<div style={{height:'200vh'}}>qna page</div>} />
       </Routes>
@@ -33,3 +34,4 @@ function App() {
 }
 
 export default App;
+
