@@ -43,6 +43,7 @@ const Carousel = ({ content }) => {
           width: '450px',
           display: 'flex',
           flexWrap: 'wrap',
+          marginBottom: '25px',
         }}
       >
         {content[currentIndex].content}
@@ -83,6 +84,7 @@ const Carousel = ({ content }) => {
         <div className="indicator">
           {content.map((_, index) => (
             <div
+              onClick={() => setCurrentIndex(index)}
               key={index}
               className={`dot ${currentIndex === index ? 'active' : ''}`}
             ></div>

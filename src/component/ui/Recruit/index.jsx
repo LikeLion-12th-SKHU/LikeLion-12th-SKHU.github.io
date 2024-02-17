@@ -35,8 +35,7 @@ const Recruit = () => {
       <BannerTextArea
         bannerType="ROADMAP"
         bannerTitle="모집 일정"
-        bannerContentText="멋쟁이사자처럼 성공회대 12기에서는 
-웹, 서버 파트로 나누어 진행됩니다."
+        bannerContentText="멋쟁이사자처럼 성공회대 12기 아기사자들의 모집 일정입니다."
       />
       <div
         style={{
