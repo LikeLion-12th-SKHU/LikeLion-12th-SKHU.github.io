@@ -18,11 +18,13 @@ function App() {
 
       <Navbar />
       <Routes>
-        <Route path="/" element={    <SloganArea />
-      <About />
-      <Recruit />
-      <Curriculum />
-      <Project />} />
+        <Route path="/" element={    
+          <SloganArea />
+          <About />
+        <Recruit />
+        <Curriculum />
+        <Project />
+        } />
         <Route path="/qna" element={<div style={{height:'200vh'}}>qna page</div>} />
       </Routes>
 
