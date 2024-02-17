@@ -16,18 +16,17 @@ body {
   background-color: #1c1b1a;
   margin: 0;
   padding: 0;
-  /* min-width: 100vw;
-  min-height: 100vh; */
+
   box-sizing: border-box;
   font-family: 'Pretendard', sans-serif;
 }
 
 .orange {
-  color: '#FF7710';
+  color: #ff7710;
 }
 
 .white {
-  color: '#ffffff';
+  color: #ffffff;
 }
 
 h1,

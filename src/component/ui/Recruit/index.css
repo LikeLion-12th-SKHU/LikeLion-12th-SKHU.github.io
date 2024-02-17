@@ -1,0 +1,25 @@
+.recruit_heading {
+  border-bottom: 2.72px solid #ff9e1b;
+  font-size: 30px;
+  width: 456px;
+  display: block;
+}
+
+.recruit-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 25px auto;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .recruit_heading {
+    width: 300px;
+  }
+  .recruit-list {
+    flex-direction: column;
+    font-size: 20px;
+  }
+}
