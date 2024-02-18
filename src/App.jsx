@@ -8,6 +8,7 @@ import Recruit from './component/ui/Recruit';
 import SloganArea from './component/ui/Slogan';
 import Curriculum from './component/ui/Curriculum';
 import Project from './component/ui/Project';
+import { TEXT } from './constants/text';
 
 function App() {
   return (
@@ -20,7 +21,18 @@ function App() {
             <>
               <SloganArea />
               <About />
-              <Recruit />
+              <Recruit
+                recruitlist={TEXT.recruit}
+                bannerType="RECRUIT"
+                bannerTitle="모집일정"
+                bannerContent="멋쟁이사자처럼 성공회대 12기 아기사자들의 모집 일정입니다."
+              />
+              <Recruit
+                recruitlist={TEXT.schedule}
+                bannerType="ROADMAP"
+                bannerTitle="주요일정"
+                bannerContent="멋쟁이사자처럼 성공회대 12기의 주요일정입니다."
+              />
               <Curriculum />
               <Project />
             </>

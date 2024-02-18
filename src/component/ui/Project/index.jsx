@@ -7,6 +7,7 @@ const Project = () => {
       style={{
         minHeight: '100vh',
       }}
+      id="project"
     >
       <BannerTextArea
         bannerType="Project"

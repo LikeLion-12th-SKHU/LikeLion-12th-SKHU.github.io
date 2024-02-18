@@ -76,6 +76,24 @@ export const TEXT = {
       img: 'https://likelion-11th-skhu.github.io/static/img/project/7.png',
     },
   ],
+  schedule: [
+    {
+      title: '전체OT',
+      content: '3월 21일',
+    },
+    {
+      title: '아이디어톤',
+      content: '5월 3일 ~ 5월 21일',
+    },
+    {
+      title: '해커톤',
+      content: '7월 12일 ~ 8월 13일',
+    },
+    {
+      title: '멋사MT',
+      content: '8월 중 예정',
+    },
+  ],
 };
 
 Object.freeze(TEXT);

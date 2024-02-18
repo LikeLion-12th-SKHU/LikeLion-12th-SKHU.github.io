@@ -1,8 +1,7 @@
 import './index.css';
 import BannerTextArea from '../Banner';
-import { TEXT } from '../../../constants/text';
-const Recruit = () => {
-  const recruitList = TEXT.recruit.map(({ title, content }) => {
+const Recruit = ({ recruitlist, bannerType, bannerTitle, bannerContent }) => {
+  const recruitList = recruitlist.map(({ title, content }) => {
     return (
       <div
         key={title}
@@ -31,11 +30,12 @@ const Recruit = () => {
       style={{
         minHeight: '100vh',
       }}
+      id="recruit"
     >
       <BannerTextArea
-        bannerType="ROADMAP"
-        bannerTitle="모집 일정"
-        bannerContentText="멋쟁이사자처럼 성공회대 12기 아기사자들의 모집 일정입니다."
+        bannerType={bannerType}
+        bannerTitle={bannerTitle}
+        bannerContentText={bannerContent}
       />
       <div
         style={{

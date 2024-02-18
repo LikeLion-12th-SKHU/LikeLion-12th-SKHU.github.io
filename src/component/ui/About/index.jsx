@@ -24,6 +24,7 @@ const About = () => {
       style={{
         minHeight: '100vh',
       }}
+      id="about"
     >
       <BannerTextArea
         bannerType="About"

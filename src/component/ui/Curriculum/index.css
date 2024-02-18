@@ -1,0 +1,23 @@
+.partbox {
+  width: '360px';
+  height: '300px';
+}
+
+@media (max-width: 600px) {
+  .partbox {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .partbox {
+    width: 280px;
+    height: 280px;
+  }
+}
+@media (min-width: 901px) {
+  .partbox {
+    width: 360px;
+    height: 360px;
+  }
+}
