@@ -1,4 +1,3 @@
-import ChannelTalkImg from '/recruit_page_fe/채널톡.svg';
 import './ChannelTalk.css';
 
 const ChannelTalk = () => {
@@ -6,7 +5,7 @@ const ChannelTalk = () => {
     <div className="channelTalk">
       <span>채팅상담</span>
       <img
-        src={ChannelTalkImg}
+        src={'/recruit_page_fe/channel.svg'}
         onClick={() => window.open('https://pf.kakao.com/_lxmDSG')}
       />
     </div>
