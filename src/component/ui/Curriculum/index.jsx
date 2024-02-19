@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import { TEXT } from '../../../constants/text';
 import BannerTextArea from '../Banner';
 import './index.css';
 const Curriculum = () => {
@@ -49,14 +50,59 @@ const Curriculum = () => {
         <PartBox partName="백엔드" partContent="백엔드파트" />
       </div>
       <div
+        className="part"
         style={{
-          width: '60%',
           display: 'flex',
           margin: '25px auto',
           flexWrap: 'wrap',
+          position: 'relative', // 추가
         }}
       >
-        <h3>{part} 타임라인</h3>
+        <h3
+          style={{
+            width: '80%',
+            fontSize: '24px',
+          }}
+        >
+          {part} 주요 타임라인
+        </h3>
+        <hr
+          style={{
+            height: '2px',
+            border: 0,
+            backgroundColor: '#FF7710',
+            width: '80%',
+          }}
+        ></hr>
+
+        {Array.from({
+          length: 5,
+        }).map((_, index) => (
+          <div
+            className="partdot-wrapper"
+            key={index}
+            style={{
+              fontSize: '1rem',
+              width: '14px',
+              height: '14px',
+              borderRadius: '100%',
+              position: 'absolute', // 변경
+              background: '#ff7710',
+              zIndex: 1,
+              left: `${(index + 1) * 16}%`, // 추가
+            }}
+          >
+            <div
+              className="partdot"
+              style={{
+                position: 'relative',
+                top: 30,
+              }}
+            >
+              {TEXT[part][index]}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

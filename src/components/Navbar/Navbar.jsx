@@ -15,7 +15,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar__left">
-        <img src={logoimg} alt="Logo" />
+        <Link to="/">
+          <img src={logoimg} alt="Logo" />
+        </Link>
       </div>
       <div className="navbar__right">
         <Link to="/qna">

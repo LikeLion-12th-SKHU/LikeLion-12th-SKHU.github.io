@@ -94,6 +94,20 @@ export const TEXT = {
       content: '8월 중 예정',
     },
   ],
+  프론트엔드: [
+    'HTML,CSS기초',
+    '자바스크립트 기초/심화',
+    'React 기초',
+    'CSS-in-JS와 tailwind CSS',
+    '전역 상태 관리',
+  ],
+  백엔드: [
+    'Java기초 + 고급 문법',
+    '데이터베이스 기초 + 모델링(ERD)',
+    'Spring(프로젝트 설정, 데이터베이스 연동 등)',
+    'JPA와 API통신',
+    '스프링 시큐리티',
+  ],
 };
 
 Object.freeze(TEXT);

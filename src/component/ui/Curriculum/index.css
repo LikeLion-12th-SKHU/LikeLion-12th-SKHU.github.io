@@ -3,10 +3,33 @@
   height: '300px';
 }
 
+.partdot-wrapper {
+  top: 76px;
+}
+
+.part {
+  width: 70%;
+}
+
+.partdot {
+  width: 150px;
+}
+
 @media (max-width: 600px) {
   .partbox {
     width: 200px;
     height: 200px;
+  }
+  .partdot {
+    width: 50px;
+    font-size: 10px;
+  }
+
+  .partdot-wrapper {
+    top: 80px;
+  }
+  .part {
+    width: 100%;
   }
 }
 @media (min-width: 601px) and (max-width: 900px) {
@@ -14,10 +37,26 @@
     width: 280px;
     height: 280px;
   }
+  .partdot-wrapper {
+    top: 80px;
+  }
+  .partdot {
+    width: 70px;
+    font-size: 12px;
+  }
+  .part {
+    width: 100%;
+  }
 }
 @media (min-width: 901px) {
   .partbox {
     width: 360px;
     height: 360px;
+  }
+  .partdot {
+    font-size: 12px;
+  }
+  .part {
+    font-size: 12px;
   }
 }
