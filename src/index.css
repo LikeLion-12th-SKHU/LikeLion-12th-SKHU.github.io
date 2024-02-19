@@ -37,3 +37,7 @@ h5,
 h6 {
   font-family: 'Pretendard Bold', sans-serif;
 }
+
+a {
+  color: inherit;
+}

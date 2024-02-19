@@ -1,6 +1,6 @@
 .partbox {
-  width: '360px';
-  height: '300px';
+  width: 360px;
+  height: 300px;
 }
 
 .partdot-wrapper {
@@ -9,10 +9,12 @@
 
 .part {
   width: 70%;
+  font-size: 14px;
 }
 
 .partdot {
   width: 150px;
+  font-size: 14px;
 }
 
 @media (max-width: 600px) {
@@ -48,7 +50,7 @@
     width: 100%;
   }
 }
-@media (min-width: 901px) {
+@media (min-width: 901px) and (max-width: 1200px) {
   .partbox {
     width: 360px;
     height: 360px;

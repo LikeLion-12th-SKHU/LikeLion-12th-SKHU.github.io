@@ -5,16 +5,18 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 15px 15px 15px;
-  /* left: 0px; */
-  /* top: 0; */
 
+  color: #1c1b1a;
   background: #ffffff;
   z-index: 99;
   position: sticky;
   left: 0;
   top: 0;
-  /* position: sticky; */
-  /* z-index:1; */
+}
+
+.qna {
+  background: #1c1b1a;
+  color: #ffffff;
 }
 
 .navbar__left {
@@ -34,13 +36,18 @@
   margin-left: 40px;
   border: none;
   cursor: pointer;
-  color: #1c1b1a;
+  color: inherit;
   font-size: 20px;
   line-height: 25px;
-  background: #ffffff;
+  background: inherit;
 }
 
-@media (max-width: 768px) {
+.navbar__right .qna {
+  color: '#ffffff';
+  background: 'black';
+}
+
+@media (max-width: 1200px) {
   .navbar__right button {
     font-size: 16px;
   }

@@ -30,19 +30,19 @@ export const TEXT = {
   ],
   recruit: [
     {
-      title: '서류접수',
+      title: '1차 서류',
       content: '2월 26일 ~ 3월 8일',
     },
     {
-      title: '면접 일정 통보',
-      content: '3월 11일 ~ 3월 12일',
+      title: '1차 발표',
+      content: '3월 9일 ~ 3월 11일',
     },
     {
-      title: '오프라인 면접',
-      content: '3월 13일 ~ 3월 15일',
+      title: '2차 면접',
+      content: '3월 12일 ~ 3월 14일',
     },
     {
-      title: '최종 합격 통보',
+      title: '최종 발표',
       content: '3월 17일',
     },
     {
