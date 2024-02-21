@@ -41,6 +41,8 @@ const Carousel = ({ content }) => {
       <div
         style={{
           width: '450px',
+          minHeight: '150px',
+          height: 'auto',
           display: 'flex',
           flexWrap: 'wrap',
           marginBottom: '25px',
