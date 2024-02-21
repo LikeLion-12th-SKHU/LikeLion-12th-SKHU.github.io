@@ -108,6 +108,25 @@ export const TEXT = {
     'JPA와 API통신',
     '스프링 시큐리티',
   ],
+
+  QnA: [
+    {
+      question: '모집 및 활동 일정이 궁금해요.',
+      answer: '아니오',
+    },
+    {
+      question: '활동이 온라인으로 진행되나요?',
+      answer: '예',
+    },
+    {
+      question: '휴학생인데 가능한가요?',
+      answer: '아닌데요',
+    },
+    {
+      question: '다른 동아리와 중복 지원이 가능한가요?',
+      answer: '예니오',
+    },
+  ],
 };
 
 Object.freeze(TEXT);

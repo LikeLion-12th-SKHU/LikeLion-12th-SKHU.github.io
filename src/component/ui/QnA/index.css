@@ -1,0 +1,41 @@
+.question {
+  font-size: 30px;
+  font-weight: 600;
+}
+.answer {
+  font-size: 25px;
+  display: flex;
+  margin: 0 auto;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.qna-container {
+  width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+  .question {
+    font-size: 24px;
+  }
+  .answer {
+    font-size: 18px;
+  }
+  .qna-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .question {
+    font-size: 18px;
+  }
+  .answer {
+    font-size: 14px;
+
+    font-weight: 400;
+  }
+  .qna-container {
+    width: 100%;
+  }
+}

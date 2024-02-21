@@ -8,6 +8,7 @@ import Recruit from './component/ui/Recruit';
 import SloganArea from './component/ui/Slogan';
 import Curriculum from './component/ui/Curriculum';
 import Project from './component/ui/Project';
+import QnA from './component/ui/QnA';
 import ChannelTalk from './component/ui/IconUI/ChannelTalk';
 import { TEXT } from './constants/text';
 
@@ -51,7 +52,7 @@ function App() {
                 color: '#1C1B1A',
               }}
             >
-              qna page
+              <QnA />
             </div>
           }
         />
