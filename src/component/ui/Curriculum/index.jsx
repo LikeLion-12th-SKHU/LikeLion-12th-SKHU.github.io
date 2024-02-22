@@ -5,11 +5,15 @@ import BannerTextArea from '../Banner';
 import './index.css';
 const Curriculum = () => {
   const [part, setPart] = useState('프론트엔드');
-  const PartBox = ({ partName, partContent }) => (
+  const PartBox = ({ partName, partTitle, partContent }) => (
     <motion.div
       className="partbox"
-      whileHover={{ scale: 1.1 }}
+      whileHover={{ scale: 1.05 }}
       style={{
+        paddingLeft: '3px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-around',
         marginTop: '15px',
         background: part === partName ? '#FF7710' : '#646464',
         color: part === partName && '#000000',
@@ -19,6 +23,7 @@ const Curriculum = () => {
       onClick={() => setPart(partName)}
     >
       <h2>{partName}</h2>
+      <p>{partTitle}</p>
       <p>{partContent}</p>
     </motion.div>
   );
@@ -46,8 +51,16 @@ const Curriculum = () => {
           overflow: 'hidden',
         }}
       >
-        <PartBox partName="프론트엔드" partContent="프론트파트" />
-        <PartBox partName="백엔드" partContent="백엔드파트" />
+        <PartBox
+          partName="프론트엔드"
+          partContent={TEXT.프론트엔드.content}
+          partTitle={TEXT.프론트엔드.title}
+        />
+        <PartBox
+          partName="백엔드"
+          partContent={TEXT.백엔드.content}
+          partTitle={TEXT.백엔드.title}
+        />
       </div>
       <div
         className="part"
@@ -99,7 +112,7 @@ const Curriculum = () => {
                 top: 30,
               }}
             >
-              {TEXT[part][index]}
+              {TEXT[part].roadMap[index]}
             </div>
           </div>
         ))}

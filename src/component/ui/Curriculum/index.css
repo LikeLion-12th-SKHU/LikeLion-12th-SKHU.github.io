@@ -1,6 +1,7 @@
 .partbox {
   width: 360px;
   height: 300px;
+  font-size: 16px;
 }
 
 .partdot-wrapper {
@@ -21,6 +22,7 @@
   .partbox {
     width: 200px;
     height: 200px;
+    font-size: 12px;
   }
   .partdot {
     width: 50px;
@@ -38,6 +40,7 @@
   .partbox {
     width: 280px;
     height: 280px;
+    font-size: 14px;
   }
   .partdot-wrapper {
     top: 80px;

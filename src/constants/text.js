@@ -94,20 +94,30 @@ export const TEXT = {
       content: '8월 중 예정',
     },
   ],
-  프론트엔드: [
-    'HTML,CSS기초',
-    '자바스크립트 기초/심화',
-    'React 기초',
-    'CSS-in-JS와 tailwind CSS',
-    '전역 상태 관리',
-  ],
-  백엔드: [
-    'Java기초 + 고급 문법',
-    '데이터베이스 기초 + 모델링(ERD)',
-    'Spring(프로젝트 설정, 데이터베이스 연동 등)',
-    'JPA와 API통신',
-    '스프링 시큐리티',
-  ],
+  프론트엔드: {
+    roadMap: [
+      'HTML,CSS기초',
+      '자바스크립트 기초/심화',
+      'React 기초',
+      'CSS-in-JS와 tailwind CSS',
+      '전역 상태 관리',
+    ],
+    title:
+      '프론트엔드 파트는 사용자 인터페이스를  구현하는데 초점을 맞추고 있습니다. 버튼 클릭, 이미지 슬라이드 등 사용자 경험과 사용자 인터페이스를 담당합니다.',
+    content: 'HTML,CSS,javascript,React,Styled-components,tailwind css',
+  },
+  백엔드: {
+    roadMap: [
+      'Java기초 + 고급 문법',
+      '데이터베이스 기초 + 모델링(ERD)',
+      'Spring(프로젝트 설정, 데이터베이스 연동 등)',
+      'JPA와 API통신',
+      '스프링 시큐리티',
+    ],
+    title:
+      '백엔드 파트는 HTTP 프로토콜을 기반으로 데이터를 제공하기 위한 효율적이고 체계화된 REST API 설계와 데이터베이스 관리에 초점을 맞추고 있습니다.',
+    content: 'AWS,Nginx,Java,Spring Boot,JPA',
+  },
 
   QnA: [
     {
