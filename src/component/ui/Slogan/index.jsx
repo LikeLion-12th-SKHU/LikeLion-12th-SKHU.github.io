@@ -18,7 +18,12 @@ const SloganArea = () => {
           }}
           className="transition-text"
         />
-        <Button type="recruit" content="12기 지원하기" icon={<ApplyIcon />} />
+        <Button
+          type="recruit"
+          content="12기 지원하기"
+          icon={<ApplyIcon />}
+          onClick={() => window.open('https://forms.gle/MFEAXNT45gffDomU8')}
+        />
       </section>
 
       <div
