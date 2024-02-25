@@ -11,8 +11,13 @@ import Project from './component/ui/Project';
 import QnA from './component/ui/QnA';
 import ChannelTalk from './component/ui/IconUI/ChannelTalk';
 import { TEXT } from './constants/text';
-
+import { useEffect } from 'react';
+import { useLocation } from 'react-router';
 function App() {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
   return (
     <>
       <Navbar />
