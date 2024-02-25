@@ -5,7 +5,10 @@ const QnA = () => {
   return (
     <section
       style={{
-        height: '100vh',
+        minHeight: '100vh',
+        height: 'auto',
+        background: '#ffffff',
+        marginBottom: '30px',
       }}
     >
       <BannerTextArea

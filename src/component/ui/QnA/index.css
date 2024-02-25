@@ -3,8 +3,10 @@
   font-weight: 600;
 }
 .answer {
-  font-size: 25px;
+  font-size: 18px;
+  line-height: 25px;
   display: flex;
+  padding: 10px;
   margin: 0 auto;
   margin-left: 30px;
   margin-top: 10px;
@@ -12,6 +14,7 @@
 
 .qna-container {
   width: 60%;
+  height: auto;
 }
 
 @media screen and (max-width: 800px) {

@@ -5,7 +5,7 @@ const ChannelTalk = () => {
     <div className="channelTalk">
       <span>채팅상담</span>
       <img
-        src={'/recruit_page_fe/channel.svg'}
+        src={'/channel.svg'}
         onClick={() => window.open('https://pf.kakao.com/_lxmDSG')}
       />
     </div>

@@ -10,7 +10,7 @@ const Curriculum = () => {
       className="partbox"
       whileHover={{ scale: 1.05 }}
       style={{
-        paddingLeft: '3px',
+        padding: '20px',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-around',

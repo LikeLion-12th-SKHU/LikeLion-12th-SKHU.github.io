@@ -20,14 +20,14 @@ const Navbar = () => {
     <div className={`navbar ${qnAMatch ? 'qna' : ''}`}>
       <div className="navbar__left">
         <Link to="/">
-          <img src={logoImg} alt="Logo" width={200} />
+          <img src={logoImg} alt="Logo" className="logo__img" />
         </Link>
       </div>
       <div className={`navbar__right`}>
         {!qnAMatch && (
           <>
             <Link to="/qna">
-              <button>QnA</button>
+              <button className="qnabtn">QnA</button>
             </Link>
             <button onClick={() => scrollTo('about')}>About</button>
             <button onClick={() => scrollTo('recruit')}>Recruit</button>
