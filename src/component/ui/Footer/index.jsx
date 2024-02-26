@@ -1,17 +1,20 @@
+import './index.css';
+
 import PhoneIcon from '../IconUI/PhoneIcon';
 import EmailIcon from '../IconUI/EmailIcon';
 const Footer = () => {
   return (
     <footer
       style={{
+        width: '100%',
+        margin: '3.5rem auto',
         height: '50px',
         display: 'flex',
         justifyContent: 'space-around',
         flexWrap: 'wrap',
-        marginTop: '50px',
       }}
     >
-      <div>
+      <div className="footer_content">
         <h3>About us</h3>
         <p>당신의 내일과 가장 가까운 오늘을 만듭니다.</p>
         <p>
@@ -20,6 +23,7 @@ const Footer = () => {
         </p>
       </div>
       <div
+        className="footer_content"
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -53,6 +57,7 @@ const Footer = () => {
             display: 'flex',
             gap: '15px',
           }}
+          className="footer_content"
         >
           <img
             src="https://likelion-11th-skhu.github.io/static/img/footer/instagrame.png"

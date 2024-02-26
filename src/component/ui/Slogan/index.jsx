@@ -32,7 +32,7 @@ const SloganArea = () => {
         }}
       >
         <motion.img
-          width={350}
+          width={330}
           src="/banner.png"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
