@@ -37,7 +37,7 @@ const Footer = () => {
           }}
         >
           <PhoneIcon />
-          <span>02-1234-1234</span>
+          <span>010-7224-2721</span>
         </div>
 
         <div
@@ -48,7 +48,7 @@ const Footer = () => {
           }}
         >
           <EmailIcon />
-          <span>likelion@gmail.com</span>
+          <span>sungkonghoe.univ@likelion.org</span>
         </div>
         <div
           style={{
@@ -62,6 +62,9 @@ const Footer = () => {
             width={30}
             height={30}
             alt="인스타그램 이미지"
+            style={{
+              cursor: 'pointer',
+            }}
             onClick={() =>
               window.open('https://www.instagram.com/likelion_skhu/')
             }
@@ -71,6 +74,9 @@ const Footer = () => {
             width={30}
             height={30}
             alt="깃허브 이미지"
+            style={{
+              cursor: 'pointer',
+            }}
             onClick={() => window.open('https://github.com/LikeLion-12th-SKHU')}
           />
         </div>
