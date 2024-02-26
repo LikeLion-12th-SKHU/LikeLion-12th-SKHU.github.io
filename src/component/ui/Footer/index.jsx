@@ -9,7 +9,6 @@ const Footer = () => {
       style={{
         width: '100%',
         height: '50px',
-        margin: '50px auto',
         display: 'flex',
       }}
     >
@@ -63,12 +62,16 @@ const Footer = () => {
             width={30}
             height={30}
             alt="인스타그램 이미지"
+            onClick={() =>
+              window.open('https://www.instagram.com/likelion_skhu/')
+            }
           />
           <img
             src="https://likelion-11th-skhu.github.io/static/img/footer/github.png"
             width={30}
             height={30}
             alt="깃허브 이미지"
+            onClick={() => window.open('https://github.com/LikeLion-12th-SKHU')}
           />
         </div>
       </div>
