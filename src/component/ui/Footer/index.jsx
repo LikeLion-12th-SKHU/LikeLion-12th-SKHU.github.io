@@ -9,6 +9,7 @@ const Footer = () => {
       style={{
         width: '100%',
         height: '50px',
+        margin: '50px auto',
         display: 'flex',
       }}
     >
@@ -16,8 +17,8 @@ const Footer = () => {
         <h3>About us</h3>
         <p>당신의 내일과 가장 가까운 오늘을 만듭니다.</p>
         <p>
-          성공회대학교 LIKELION은 코딩에 대한 열정을 가진 대학생들이 함께 모여
-          공부하는 동아리입니다.
+          성공회대학교 멋쟁이사자처럼은 코딩에 대한 열정을 가진 대학생들이 함께
+          모여 공부하는 동아리입니다.
         </p>
       </div>
       <div
