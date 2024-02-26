@@ -9,6 +9,7 @@ const QnA = () => {
         height: 'auto',
         background: '#ffffff',
         marginBottom: '30px',
+        paddingBottom:'25px',
       }}
     >
       <BannerTextArea

@@ -1,5 +1,6 @@
 import './App.css';
 
+import Footer from './component/ui/Footer';
 import Navbar from './components/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
 
@@ -44,6 +45,7 @@ function App() {
               />
               <Curriculum />
               <Project />
+              <Footer />
             </>
           }
         />
