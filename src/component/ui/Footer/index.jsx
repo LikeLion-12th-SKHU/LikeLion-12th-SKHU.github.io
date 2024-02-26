@@ -5,13 +5,11 @@ import EmailIcon from '../IconUI/EmailIcon';
 const Footer = () => {
   return (
     <footer
+      className="footer"
       style={{
         width: '100%',
-        margin: '3.5rem auto',
         height: '50px',
         display: 'flex',
-        justifyContent: 'space-around',
-        flexWrap: 'wrap',
       }}
     >
       <div className="footer_content">
