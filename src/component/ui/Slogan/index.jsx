@@ -32,14 +32,16 @@ const SloganArea = () => {
         }}
       >
         <motion.img
-          width={300}
-          height={300}
-          src="/sloganBackground.png"
+          width={350}
+          src="/banner.png"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
             duration: 0.5,
             delay: 1.2,
+          }}
+          style={{
+            objectFit: 'contain',
           }}
         />
       </div>
